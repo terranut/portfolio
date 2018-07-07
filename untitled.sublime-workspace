@@ -1,0 +1,1005 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"con",
+				"content_type"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"pd",
+				"pdf_file"
+			],
+			[
+				"coo",
+				"coordenadas"
+			],
+			[
+				"o",
+				"output"
+			],
+			[
+				"s",
+				"screen"
+			],
+			[
+				"sub",
+				"subcategoria"
+			],
+			[
+				"lo",
+				"loadDrawing"
+			],
+			[
+				"ne",
+				"new_dict"
+			],
+			[
+				"ce",
+				"celdaOcupadaTablero"
+			],
+			[
+				"sa",
+				"save_drawing"
+			],
+			[
+				"cel",
+				"celdaOcupadaTablero"
+			],
+			[
+				"get",
+				"getCoordsbySimple"
+			],
+			[
+				"coord",
+				"coordenadas_celda_simple"
+			],
+			[
+				"co",
+				"coordenadas_2_2"
+			],
+			[
+				"al",
+				"alto"
+			],
+			[
+				"ge",
+				"getCoordsbySimple"
+			],
+			[
+				"coor",
+				"coords"
+			],
+			[
+				"bton",
+				"boton3"
+			],
+			[
+				"an",
+				"ancho_celda"
+			],
+			[
+				"for",
+				"forward"
+			],
+			[
+				"anc",
+				"ancho_celda"
+			],
+			[
+				"alto",
+				"alto_celda"
+			],
+			[
+				"to",
+				"totalCeldas"
+			],
+			[
+				"com",
+				"compruebaCeldaOcupada"
+			],
+			[
+				"fil",
+				"fila_random"
+			],
+			[
+				"fi",
+				"fila_random"
+			],
+			[
+				"ran",
+				"random"
+			],
+			[
+				"x",
+				"xClick"
+			],
+			[
+				"cl",
+				"clicks"
+			],
+			[
+				"y",
+				"yClick"
+			],
+			[
+				"key",
+				"keys"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"fu",
+				"full"
+			],
+			[
+				"ancho",
+				"ancho_celda"
+			],
+			[
+				"p",
+				"player"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "portfolio/views.py",
+			"settings":
+			{
+				"buffer_size": 4611,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/chachaland/webfactions/httpd.conf",
+			"settings":
+			{
+				"buffer_size": 1284,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/chachaland/webfactions/settings.py",
+			"settings":
+			{
+				"buffer_size": 3582,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "luisvillarbello/templates/portfolio/taylor.html",
+			"settings":
+			{
+				"buffer_size": 14052,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "luisvillarbello/templates/portfolio/inicio.html",
+			"settings":
+			{
+				"buffer_size": 5835,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "luisvillarbello/templates/portfolio/contacto.html",
+			"settings":
+			{
+				"buffer_size": 2540,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "luisvillarbello/templates/portfolio/gracias.html",
+			"settings":
+			{
+				"buffer_size": 390,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "luisvillarbello/templates/portfolio/email_content.html",
+			"settings":
+			{
+				"buffer_size": 300,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "<h1></h1>"
+			}
+		},
+		{
+			"file": "luisvillarbello/settings.py",
+			"settings":
+			{
+				"buffer_size": 3592,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "luisvillarbello/urls.py",
+			"settings":
+			{
+				"buffer_size": 809,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "portfolio/urls.py",
+			"settings":
+			{
+				"buffer_size": 241,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "portfolio/models.py",
+			"settings":
+			{
+				"buffer_size": 4243,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "portfolio/forms.py",
+			"settings":
+			{
+				"buffer_size": 267,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/chachaland/Chachaland/Wikipy/forms.py",
+			"settings":
+			{
+				"buffer_size": 1785,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Changelog"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/chachaland/Chachaland/Chachaland/views.py",
+		"/home/chachaland/Chachaland/Chachaland/templates/Wikipy/categorias.html",
+		"/home/chachaland/webfactions/Docu/forms.py",
+		"/home/chachaland/Chachaland/Docu/urls.py",
+		"/home/chachaland/Chachaland/Docu/views.py",
+		"/home/chachaland/Chachaland/Chachaland/urls.py",
+		"/home/chachaland/Chachaland/Chachaland/settings.py",
+		"/home/chachaland/Chachaland/QuizCha/views.py",
+		"/home/chachaland/Chachaland/QuizCha/models.py",
+		"/home/chachaland/Chachaland/QuizCha/urls.py",
+		"/home/chachaland/Chachaland/Portfolio/urls.py",
+		"/home/chachaland/webfactions/Docu/models.py",
+		"/home/chachaland/Chachaland/Chachaland/templates/Portfolio/index.html",
+		"/home/chachaland/webfactions/Docu/views.py",
+		"/home/chachaland/Chachaland/Portfolio/views.py",
+		"/home/chachaland/luisvillarbello/luisvillarbello/settings.py",
+		"/home/chachaland/webfactions/Chachaland/urls.py",
+		"/home/chachaland/webfactions/Chachaland/settings.py",
+		"/home/chachaland/webfactions/Chachaland/Chachaland/settings.py",
+		"/home/chachaland/Chachaland/Chachaland/static/vendor/font-awesome/css/font-awesome.css",
+		"/home/chachaland/Chachaland/Chachaland/static/vendor/devicons/css/devicons.css",
+		"/home/chachaland/Escritorio/tmpPortfolio/startbootstrap-resume-gh-pages/LICENSE",
+		"/home/chachaland/Chachaland/Chachaland/templates/Docu/head.html",
+		"/home/chachaland/Chachaland/Chachaland/templates/Docu/index.html",
+		"/home/chachaland/Chachaland/Chachaland/templates/Portfolio/inicio.html",
+		"/home/chachaland/Escritorio/pyside/main.py",
+		"/home/chachaland/Escritorio/wx/main.py",
+		"/home/chachaland/Escritorio/tortuga/Py/chachaclas/Tablero.py",
+		"/home/chachaland/Escritorio/tortuga/Py/chachaclas/nume.py",
+		"/home/chachaland/Escritorio/tortuga/Py/main.py",
+		"/home/chachaland/Escritorio/tortuga/Py/coordenadas",
+		"/home/chachaland/Escritorio/tortuga/Pixel/chachaclas/Tablero.py",
+		"/home/chachaland/Escritorio/tortuga/3enLinea/chachaclas/Tablero.py",
+		"/home/chachaland/Escritorio/tortuga/3enLinea/main.py",
+		"/home/chachaland/Escritorio/tortuga/3enLinea/chachaclas/Player.py",
+		"/home/chachaland/Escritorio/tortuga/3enLinea/chachaclas/Tortuga.py",
+		"/home/chachaland/Chachaland/Chachaland/templates/admin/base_site.html",
+		"/home/chachaland/chachaEnv/lib/python3.5/site-packages/django/contrib/admin/templates/admin/base_site.html",
+		"/home/chachaland/chachaEnv/lib/python3.5/site-packages/django/contrib/admin/templates/admin/index.html",
+		"/home/chachaland/chachaEnv/lib/python3.5/site-packages/django/contrib/admin/templates/admin/base.html",
+		"/home/chachaland/webfactions/Chachaland/Chachaland/urls.py",
+		"/home/chachaland/webfactions/httpd.conf",
+		"/home/chachaland/webfactions/myproject/myproject/settings.py",
+		"/home/chachaland/webfactions/myproject/myproject/wsgi.py",
+		"/home/chachaland/webfactions/myproject/myproject/urls.py",
+		"/home/chachaland/Escritorio/tortuga/Pixel/main.py",
+		"/home/chachaland/webfactions/index.html",
+		"/home/chachaland/Escritorio/tortuga/Pixel/setup.py",
+		"/home/chachaland/Escritorio/Pixel/chachaclas/Tablero.py",
+		"/home/chachaland/Escritorio/Pixel/main.py",
+		"/home/chachaland/Escritorio/Pixel/chachaclas/Tablas.py",
+		"/home/chachaland/Escritorio/Pixel/chachaclas/Malla.py",
+		"/home/chachaland/Escritorio/tortuga/main.py",
+		"/home/chachaland/Escritorio/tortuga/chachaclas/Tablero.py",
+		"/home/chachaland/Escritorio/tkinter/main3.py",
+		"/home/chachaland/Escritorio/tkinter/main.py",
+		"/home/chachaland/Escritorio/WxPython/main.py",
+		"/home/chachaland/.config/sublime-text-3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/home/chachaland/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/chachaland/Escritorio/Game/main.sublime-project",
+		"/home/chachaland/.config/sublime-text-3/Packages/project_venv_repls.py",
+		"/home/chachaland/Escritorio/Game/main.py",
+		"/home/chachaland/Escritorio/tortuga/chachaclas/chachafunctions.py",
+		"/home/chachaland/Escritorio/tortuga/chachaclas/Tortuga.py",
+		"/home/chachaland/Escritorio/3enLinea/main.py",
+		"/home/chachaland/Escritorio/tortuga/chachaclas/Player.py",
+		"/home/chachaland/.config/sublime-text-3/Packages/User/SublimeREPL.sublime-settings",
+		"/home/chachaland/.config/sublime-text-3/Packages/SublimeREPL/config/Python/Main.sublime-menu",
+		"/home/chachaland/.config/sublime-text-3/Packages/User/python3.sublime-build",
+		"/home/chachaland/webfactions/urls.py",
+		"/home/chachaland/webfactions/settings.py",
+		"/home/chachaland/Chachaland/Docu/templates/Docu/interprete.html",
+		"/home/chachaland/sss.py"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"MEDIA",
+			"cv",
+			"email",
+			"mail",
+			"contacto",
+			"fa",
+			"contacto",
+			"sesi",
+			"sesion",
+			"interes",
+			"adobe",
+			"skills",
+			"\ngetCoordsbySimple",
+			"\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "portfolio/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3898,
+								3898
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2556.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/chachaland/webfactions/httpd.conf",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1284,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1275,
+								1275
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/chachaland/webfactions/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3582,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3543,
+								3543
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1722.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "luisvillarbello/templates/portfolio/taylor.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14052,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6223,
+								6223
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2774.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "luisvillarbello/templates/portfolio/inicio.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1050.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "luisvillarbello/templates/portfolio/contacto.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2540,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								61
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "luisvillarbello/templates/portfolio/gracias.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								355,
+								355
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "luisvillarbello/templates/portfolio/email_content.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 300,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								250,
+								250
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<h1></h1>",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 8,
+					"file": "luisvillarbello/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3592,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3591,
+								3591
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 172.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "luisvillarbello/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 809,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								66,
+								66
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "portfolio/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								230,
+								230
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 11,
+					"file": "portfolio/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4243,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4243,
+								4243
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2064.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "portfolio/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 267,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								267,
+								267
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 140.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/home/chachaland/Chachaland/Wikipy/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1785,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24,
+								24
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 714.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				3
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			],
+			[
+				1,
+				2,
+				2,
+				3
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.483854166667,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.441728657456,
+			0.894130497772,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 44.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/python3.sublime-build",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				3
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			],
+			[
+				1,
+				2,
+				2,
+				3
+			]
+		]
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
