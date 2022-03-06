@@ -6,7 +6,7 @@ const fonts = { mono: `'Menlo', monospace` }
 const breakpoints = createBreakpoints({
   xs:'320px',
   sm: '1024px',
-  md: '1368px',
+  md: '1300px',
   lg: '1440px',
   xl: '1920px',
 })
