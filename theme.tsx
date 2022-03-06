@@ -19,6 +19,13 @@ const theme = extendTheme({
   },
   fonts,
   breakpoints,
+  styles: {
+    global: {
+      body: {
+       background:"black"
+      }
+    }
+  },
 })
 
 export default theme

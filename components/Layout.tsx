@@ -17,7 +17,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     <Flex border="1px" width="100vw" height="100vh" display="flex"  flexDirection={{ xs: 'column', md: 'row' }}>
-      <Box p="5" bg="grey_light" width={{xs:'',md:'50vw'}} height="100%" order={{ xs: '1', md: '0' }}>
+      <Box p="5" bg="grey_light" width={{xs:'',md:'50vw'}} height="100%" order={{ xs: '1', md: '0' }} overflow="scroll">
         {children}
       </Box>
       <Menu routes={routes}/>
