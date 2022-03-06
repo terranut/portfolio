@@ -1,9 +1,9 @@
 import Layout from '../components/Layout';
 
-const HomePage = () => (
+const BlogPage = () => (
   <Layout title="Home | ABOUT">
-    Home
+    Blog
   </Layout>
 )
 
-export default HomePage
+export default BlogPage
