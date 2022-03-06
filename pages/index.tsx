@@ -1,8 +1,8 @@
 import Layout from "../components/Layout";
-import { Text, Box, Flex, Center, Stack } from "@chakra-ui/layout";
-import { Image } from "@chakra-ui/react";
+import { Text, Box, Flex, Stack } from "@chakra-ui/layout";
 import { stackData } from "../data/stackData";
 import Profile from "../components/Profile";
+import ProfileTabs from "../components/ProfileTabs";
 
 const HomePage = () => {
   const stackInfo = stackData.map((element, idx) => (
@@ -26,6 +26,7 @@ const HomePage = () => {
         <Stack mt="10" direction={{ xs: "column", md: "row" }} spacing="24px">
           {stackInfo}
         </Stack>
+        <ProfileTabs />
       </Flex>
     </Layout>
   );

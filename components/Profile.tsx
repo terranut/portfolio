@@ -11,7 +11,7 @@ const Profile = () => (
         @terranut
       </Heading>
       <Box fontSize="small" color="grey">
-        Hola. Me llano Nacho y soy desarrollador Frontend con experiencia en los frameworks más populares del mercado
+        Hola. Me llamo Nacho y soy desarrollador Frontend con experiencia en los frameworks más populares del mercado
         como son Angular y React con Next. Adoro el diseño de aplicaciones y juegos. Actualmente mis esfuerzos tratan de enseñar Javascript a mi gata.
       </Box>
     </Flex>
