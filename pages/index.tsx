@@ -9,10 +9,10 @@ const HomePage = () => {
     <Flex key={idx}>
       {element.icon}
       <Box p="2">
-        <Text fontSize="12px" fontWeight="bold" lineHeight="1" color="grey">
+        <Text fontSize="12px" fontWeight="bold" lineHeight="1" >
           {element.title}
         </Text>
-        <Text fontSize="10px" lineHeight="1" color="grey">
+        <Text fontSize="10px" lineHeight="1" >
           {element.info}
         </Text>
       </Box>
@@ -20,8 +20,8 @@ const HomePage = () => {
   ));
 
   return (
-    <Layout title="Home | ABOUT">
-      <Flex height="100%" flexDirection="column">
+    <Layout title="José Mendoza">
+      <Flex p="5" height="100%" flexDirection="column">
         <Profile />
         <Stack mt="10" direction={{ xs: "column", md: "row" }} spacing="24px">
           {stackInfo}

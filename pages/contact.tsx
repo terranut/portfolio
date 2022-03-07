@@ -7,14 +7,13 @@ import NextLink from 'next/link'
 
 
 const ContactPage = () => (
-  <Layout title="Home | ABOUT">
+  <Layout title="José Mendoza | Contacto">
     <Center h="100%">
       <Flex direction="column" alignItems="center">
-        <Heading color="black_light">Hablemos</Heading>
-        <Text>¿Tienes alguna pregunta?. Contacta conmigo </Text>
+        <Heading>Hablemos</Heading>
+        <Text fontSize="14px">Si necesitas más información o tienes alguna pregunta. Contacta conmigo.</Text>
 
         <Stack mt="10" direction="row" spacing="40px">
-          
           <Image borderRadius="full" boxSize="100px" objectFit="cover" src="/assets/jima.jpg" />
           <Image borderRadius="full" boxSize="100px" objectFit="cover" src="/assets/renfe.jpg" />
         </Stack>

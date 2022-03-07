@@ -1,7 +1,7 @@
 import Layout from '../components/Layout';
 
 const ProjectsPage = () => (
-  <Layout title="Home | ABOUT">
+  <Layout title="José Mendoza | Proyectos">
     Projects
   </Layout>
 )

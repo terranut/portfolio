@@ -7,10 +7,10 @@ const Profile = () => (
       <Image borderRadius="10" src="/assets/jima.jpg"></Image>
     </Center>
     <Flex flexDirection="column" p="5" display="flex" justifyContent="space-evenly">
-      <Heading size="md" color="black_light">
-        @terranut
+      <Heading size="md" >
+        José Mendoza
       </Heading>
-      <Box fontSize="small" color="grey">
+      <Box fontSize="small" >
         Hola. Me llamo Nacho y soy desarrollador Frontend con experiencia en los frameworks más populares del mercado
         como son Angular y React con Next. Adoro el diseño de aplicaciones y juegos. Actualmente mis esfuerzos tratan de enseñar Javascript a mi gata.
       </Box>

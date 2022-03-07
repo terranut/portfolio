@@ -1,9 +1,9 @@
 const routes = [
-    { id: "@terranut", path: "/" },
-    { id: "Experiencia", path: "/about" },
-    { id: "projects", path: "/projects" },
-    { id: "blog", path: "/blog" },
-    { id: "contact", path: "/contact" },
+    { id: "JOSÉ MENDOZA", path: "/" },
+    { id: "EXPERIENCIA", path: "/about" },
+    // { id: "PROYECTOS", path: "/projects" },
+    { id: "BLOG", path: "/blog" },
+    { id: "CONTACTO", path: "/contact" },
 ];
 
 export { routes }

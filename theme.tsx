@@ -18,6 +18,10 @@ const theme = extendTheme({
     red: '#d32f2f',
     grey:'#505050',
     grey_light:'#fafafa',
+    
+    primary:'#5c6bc0',
+    light:'#8e99f3',
+    dark:'#26418f'
 
   },
   fonts,
@@ -25,7 +29,7 @@ const theme = extendTheme({
   styles: {
     global: {
       body: {
-       background:"black"
+        color:'#16161D'
       }
     }
   },

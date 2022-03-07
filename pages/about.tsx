@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import { Heading, List, ListItem, Box,Center } from "@chakra-ui/layout";
+import { Heading, List, ListItem, Box } from "@chakra-ui/layout";
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 import { cv } from "../data/cv";
 
@@ -26,10 +26,8 @@ const list = cv.map((element, idx) => (
 ));
 
 const AboutPage = () => (
-  <Layout title="Home | ABOUT">
-    <Center>
-      <Box>{list}</Box>
-    </Center>
+  <Layout title="José Mendoza | Experiencia">
+    <Box p="5">{list}</Box>
   </Layout>
 );
 

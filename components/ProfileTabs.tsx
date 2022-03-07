@@ -1,10 +1,10 @@
-import { Tabs, TabList, TabPanels, Tab, TabPanel, Grid } from "@chakra-ui/react";
+import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
 import { tecnologiesFront, tecnologiesBack, tecnologiesOthers } from "../data/tecnoList";
-// https://devicon.dev/
+import { Wrap } from "@chakra-ui/layout";
 
 const myF = (arr) => {
-  return arr.map((element) => {
-    return <i style={{ fontSize: "80px" }} className={element.className}></i>;
+  return arr.map((element, idx) => {
+    return <i key={idx} style={{ fontSize: "70px" }} className={element.className}></i>;
   });
 };
 
@@ -18,19 +18,13 @@ const ProfileTabs = () => (
 
     <TabPanels>
       <TabPanel>
-        <Grid templateColumns="repeat(5, 1fr)" gap={3}>
-          {myF(tecnologiesFront)}
-        </Grid>
+        <Wrap spacing={8}>{myF(tecnologiesFront)}</Wrap>
       </TabPanel>
       <TabPanel>
-        <Grid templateColumns="repeat(5, 1fr)" gap={3}>
-          {myF(tecnologiesBack)}
-        </Grid>
+        <Wrap spacing={8}>{myF(tecnologiesBack)}</Wrap>
       </TabPanel>
       <TabPanel>
-        <Grid templateColumns="repeat(5, 1fr)" gap={3}>
-          {myF(tecnologiesOthers)}
-        </Grid>
+        <Wrap spacing={8}>{myF(tecnologiesOthers)}</Wrap>
       </TabPanel>
     </TabPanels>
   </Tabs>
