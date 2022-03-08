@@ -1,5 +1,4 @@
-import { List, ListItem, Center } from "@chakra-ui/react";
-import { ChevronRightIcon } from "@chakra-ui/icons";
+import { Center, Wrap } from "@chakra-ui/react";
 import Router from "next/router";
 import { useRouter } from "next/router";
 
@@ -11,16 +10,25 @@ function Menu(props) {
     else Router.push(option);
   };
 
-  const listItems = props.routes.map((element) => (
-    <ListItem fontSize="18px"  key={element.path} cursor="pointer" onClick={() => handlerOption(element.path)}>
-      <ChevronRightIcon mr="2" color={router.pathname === element.path ? "white" : "dark"} />
+  let totalRoutes = props.routes.length;
+  const listSquare = props.routes.map((element) => (
+    <Center height={100/totalRoutes+'vh'} width="100%" bg="grey1" _hover={{bg: "grey5",color: "white"}}
+      onMouseEnter={() => handlerOption(element.path)}
+    >
       {element.id}
-    </ListItem>
+    </Center>
   ));
 
   return (
-    <Center width={{xs:'',md:'50%'}} height={{xs:'30%',md:'100%'}} color="white" p="10" fontSize="24px">
-      <List spacing={3}>{listItems}</List>
+    <Center
+      width={{ xs: "", md: "50%" }}
+      height={{ xs: "30%", md: "100%" }}
+      color="white"
+      fontSize="24px"
+    >
+      <Wrap direction="column" width="100%" spacing={0}>
+        {listSquare}
+      </Wrap>
     </Center>
   );
 }

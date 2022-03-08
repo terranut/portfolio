@@ -1,4 +1,4 @@
-const tecnologiesFront = [
+const skill_1 = [
     { id: "Angular", className: "devicon-angularjs-plain-wordmark  colored" },
     { id: "React", className: " devicon-react-original-wordmark colored" },
     { id: "Redux", className: " devicon-redux-original colored" },
@@ -14,7 +14,7 @@ const tecnologiesFront = [
     { id: "Figma", className: " devicon-figma-plain colored" },
 ];
 
-const tecnologiesBack = [
+const skill_2 = [
     { id: "django", className: "devicon-django-plain-wordmark  colored" },
     { id: "Linux", className: " devicon-linux-plain colored" },
     { id: "Mysql", className: "devicon-mysql-plain-wordmark colored" },
@@ -25,7 +25,7 @@ const tecnologiesBack = [
     { id: "Apcache", className: "devicon-apache-plain-wordmark colored" },
 ];
 
-const tecnologiesOthers = [
+const skill_3 = [
     { id: "GoogleCloud", className: "devicon-googlecloud-plain-wordmark colored" },
     { id: "Wordpress", className: " devicon-wordpress-plain-wordmark colored" },
     { id: "Photoshop", className: "devicon-photoshop-plain colored" },
@@ -36,4 +36,4 @@ const tecnologiesOthers = [
 
 ];
 
-export { tecnologiesFront, tecnologiesBack, tecnologiesOthers }
+export { skill_1, skill_2, skill_3 }

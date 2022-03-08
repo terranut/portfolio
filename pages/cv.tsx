@@ -4,31 +4,29 @@ import { ArrowForwardIcon } from "@chakra-ui/icons";
 import { cv } from "../data/cv";
 
 const listItem = (element) => {
-  return(
-    element.map((item, itemIdx) => (
-      <ListItem key={itemIdx}>
-        <ArrowForwardIcon mr="2" color="black" />
-        {item}
-      </ListItem>
-    ))
-  )
+  return element.map((item, itemIdx) => (
+    <ListItem key={itemIdx}>
+      <ArrowForwardIcon mr="2" color="black" />
+      {item}
+    </ListItem>
+  ));
 };
 
 const list = cv.map((element, idx) => (
   <Box key={idx}>
-    <Heading mt="5" size={element.size}>{element.name}</Heading>
+    <Heading mt="5" size={element.size}>
+      {element.name}
+    </Heading>
     <List>
-      <List>
-        {listItem(element.items)}
-      </List>
+      <List>{listItem(element.items)}</List>
     </List>
   </Box>
 ));
 
-const AboutPage = () => (
+const CvPage = () => (
   <Layout title="José Mendoza | Experiencia">
     <Box p="5">{list}</Box>
   </Layout>
 );
 
-export default AboutPage;
+export default CvPage;
