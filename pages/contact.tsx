@@ -9,7 +9,7 @@ const ContactPage = () => (
   <Layout title="José Mendoza | Contacto">
     <Center h="100%">
       <Flex direction="column" alignItems="center">
-        <Heading>Hablemos</Heading>
+        <Heading fontFamily="smoch">Hablemos</Heading>
         <Text fontSize="14px">
           Si necesitas más información o tienes alguna pregunta. Contacta conmigo.
         </Text>

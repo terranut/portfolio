@@ -12,7 +12,7 @@ const ProjectsPage = () => (
           </Box>
           <i className={'icon '+ element.icon}></i>
           <Box className="content">
-            <Heading as="h2">{element.title}</Heading>
+            <Heading as="h2" fontFamily="smoch">{element.title}</Heading>
             <Box fontSize="12px">{element.description}</Box>
           </Box>
         </Box>

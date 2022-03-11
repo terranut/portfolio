@@ -9,7 +9,7 @@ const workExperience = [
     {
         data: "2021",
         p: "right",
-        title: "Asesoría jurídica ",
+        title: "Asesoría jurídica",
         description: "Proyecto con Angular para la gestión de una asesoría jurídica",
         icon: 'devicon-angularjs-plain'
 

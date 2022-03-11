@@ -1,7 +1,9 @@
 import { extendTheme } from '@chakra-ui/react'
-import { createBreakpoints } from '@chakra-ui/theme-tools'
+import { createBreakpoints } from '@chakra-ui/theme-tools';
+import "@fontsource/smooch-sans"
 
-const fonts = { mono: `'Menlo', monospace` }
+
+const fonts = { mono: `'Menlo', monospace`,smoch:"Smooch Sans" }
 
 const breakpoints = createBreakpoints({
   xs:'320px',

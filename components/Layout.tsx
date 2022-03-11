@@ -27,6 +27,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => {
         height="100%"
         order={{ xs: "1", md: "0" }}
         overflow="scroll"
+        fontFamily="mono"
       >
         {children}
       </Box>

@@ -11,6 +11,7 @@
     "@chakra-ui/react": "^1.8.5",
     "@emotion/react": "^11.8.1",
     "@emotion/styled": "^11.8.1",
+    "@fontsource/smooch-sans": "^4.5.0",
     "axios": "^0.21.0",
     "firebase": "^8.0.0",
     "next": "latest",

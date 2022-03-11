@@ -14,7 +14,7 @@ const listItem = (element) => {
 
 const list = cv.map((element, idx) => (
   <Box key={idx}>
-    <Heading mt="5" size={element.size}>
+    <Heading mt="5" size={element.size} fontFamily="smoch">
       {element.name}
     </Heading>
     <List>

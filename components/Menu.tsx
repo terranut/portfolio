@@ -1,4 +1,4 @@
-import { Center, Wrap } from "@chakra-ui/react";
+import { Center, Wrap,Text } from "@chakra-ui/react";
 import Router from "next/router";
 import { useRouter } from "next/router";
 
@@ -15,7 +15,7 @@ function Menu(props) {
     <Center height={100/totalRoutes+'vh'} width="100%" bg="grey1" _hover={{bg: "grey5",color: "white"}}
       onMouseEnter={() => handlerOption(element.path)}
     >
-      {element.id}
+      <Text fontFamily="smoch" fontSize="80px">{element.id}</Text>
     </Center>
   ));
 

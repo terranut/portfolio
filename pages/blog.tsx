@@ -17,7 +17,7 @@ const cards = post.map((element, idx) => {
     <Flex __css={cardBlog} key={idx}>
       <Image width="100%" height="150px" objectFit="cover" src={element.image} />
       <Flex p="3" direction="column">
-        <Heading size="sm">{element.title}</Heading>
+        <Heading size="sm" fontFamily="smoch">{element.title}</Heading>
         <Text mt="2" fontSize="12px">
           {element.text}
         </Text>
