@@ -1,9 +1,10 @@
 import { extendTheme } from '@chakra-ui/react'
 import { createBreakpoints } from '@chakra-ui/theme-tools';
 import "@fontsource/smooch-sans"
+import "@fontsource/poppins";
 
 
-const fonts = { mono: `'Menlo', monospace`,smoch:"Smooch Sans" }
+const fonts = { mono: `'Menlo', monospace`,smoch:"Smooch Sans",poppins:'Poppins, sans-serif',  }
 
 const breakpoints = createBreakpoints({
   xs:'320px',
@@ -15,26 +16,37 @@ const breakpoints = createBreakpoints({
 
 const theme = extendTheme({
   colors: {
-    black: '#16161D',
-    red: '#d32f2f',
+    black:{
+      900:' #121212',
+      700: '#1e1e1f',
+      300:'#2b2b2c',
+      200: '#383838',
+      100: '#a2a2a2'
+      
+    } ,
+    blackAlpha:{
+      300:'#2b2b2cbf',
+    },
+    gray:{
+      800:"#363636",
+      100:'#d6d6d6',
+    },
+    grayAlpha:{
+      100:'#d6d6d6b3'
+    },
     white:'#fafafa',
-    primary:'#5c6bc0',
-    light:'#8e99f3',
-    dark:'#26418f',
 
-    grey1:"#212121",
-    grey2:"#424242",
-    grey3:"#37474f",
-    grey4:"#263238",
-    grey5:"#252525",
-    grey6:"#2b2b2b",
+    yellow:'#fdcf69',
+    
+    
   },
   fonts,
   breakpoints,
   styles: {
     global: {
       body: {
-        color:'#16161D'
+        color:'white',
+        background: "black.900"
       }
     }
   },

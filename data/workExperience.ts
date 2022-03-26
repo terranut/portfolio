@@ -43,14 +43,14 @@ const workExperience = [
         icon: 'devicon-angularjs-plain'
     },
     {
-        data: "2016",
+        data: "2017",
         p: "left",
         title: "Gestor documental",
         description: "Gestor documental personal realizado con Python/Django",
         icon: 'devicon-django-plain'
     },
     {
-        data: "2012",
+        data: "2017",
         p: "right",
         title: "Web de juegos y entretenimiento",
         description: "www.esperanzagracia.es",
