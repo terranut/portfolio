@@ -8,7 +8,7 @@ import React, { useEffect, useState } from "react";
 export default function MyApp({ Component, pageProps }: AppProps) {
   const [store, setStore] = useState({});
   const { data, loading, error } = useGoogleSheets({
-    apiKey: "AIzaSyD0mpRG9CfG-NHqvzcBgjSpoNeGfwM9LFU",
+    apiKey: "",
     sheetId: "10HdQgss8VmnKeMtL1kGEt4ebRwBCTF02b0mKPrcsqVM",
   });
 
@@ -25,6 +25,8 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       store["skillsB"] = data[6]?.data;
       store["blog"] = data[7]?.data;
       store["social"] = data[8]?.data;
+      store["education"] = data[9]?.data;
+      store["experience"] = data[10]?.data;
       return { ...appState };
     });
   }, [data]);

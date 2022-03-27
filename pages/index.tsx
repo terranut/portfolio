@@ -1,7 +1,6 @@
 import Layout from "../components/Layout";
 import { Text, Heading } from "../components/ui";
-import WorkingCards from "../components/WorkingCards";
-import { data } from "../data/data";
+import WorkCards from "../components/WorkCards/WorkCards";
 
 const HomePage = (props) => {
   return (
@@ -12,9 +11,9 @@ const HomePage = (props) => {
         {props?.store?.id?.description_b}
       </Text>
       <Heading mt="10" mb="5">
-      {props?.store?.id?.working_on_title}
+        {props?.store?.id?.working_on_title}
       </Heading>
-      <WorkingCards items={props?.store?.workingOn} />
+      <WorkCards items={props?.store?.workingOn} />
     </Layout>
   );
 };
