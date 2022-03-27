@@ -1,34 +1,45 @@
 import React, { ReactNode, useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import { Flex, Box, Head, Card, Heading, Grid, SimpleGrid } from "./ui";
+import { Flex, Box, Head, Card, Heading } from "./ui";
 import Profile from "./Profile";
 import { Menu } from "./Menu/Menu";
-import { data } from "../data/data";
 import { Fade } from "@chakra-ui/react";
 
 type Props = {
   children?: ReactNode;
   title?: string;
+  store: any;
 };
 
-const Layout = ({ children, title = "This is the default title" }: Props) => {
+const Layout = ({ children, title = "This is the default title", store }: Props) => {
   const router = useRouter();
   const [page, setPage] = useState("");
 
   useEffect(() => {
-    setPage(data.menu.filter((e) => e.path === router.pathname)[0].display);
+    if(store?.menu){
+      setPage(store?.menu?.filter((e) => e.path === router.pathname)[0].display);
+    }else{
+      setPage(title)
+    }
+   
   }, [router.pathname]);
 
   return (
-    <Box id="main-wrapper" m={{ xs: "5", md: "20" }} pb="20">
+    <Box
+      id="main-wrapper"
+      ml={{ xs: "5", md: "10em" }}
+      mr={{ xs: "5", md: "10em" }}
+      mt={{ xs: "5", md: "5em" }}
+      pb="20"
+    >
       <Head>
         <title>{title}</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Flex boxShadow="dark-lg" gap={5} direction={{ xs: "column", md: "row" }}>
-        <Box position={{xs:"relative",md:"sticky"}} top={{xs:"0",md:"5"}} height="100%">
-          <Profile />
+        <Box position={{ xs: "relative", md: "sticky" }} top={{ xs: "0", md: "5" }} height="100%">
+          <Profile profile={store.profile} idData={store.id} />
         </Box>
 
         <Card p="0" width="100%">
@@ -40,11 +51,13 @@ const Layout = ({ children, title = "This is the default title" }: Props) => {
               </Flex>
             </Fade>
 
-            <Menu items={data.menu} />
+            <Menu items={store.menu} />
           </Flex>
 
           <Fade in={true} delay={0.1}>
-            <Box pl="10" pr="10" pt="5">{children}</Box>
+            <Box pl="10" pr="10" pt="8">
+              {children}
+            </Box>
           </Fade>
         </Card>
       </Flex>

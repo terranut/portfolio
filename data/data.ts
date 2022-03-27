@@ -1,8 +1,8 @@
 export const data = {
     about: {
-        name: 'Ignacio Mendoza',
-        email: 'namenal@gmail.com',
-        phone: "639426299",
+        name: 'Nombre',
+        email: 'mail',
+        phone: "phone",
         birthday: '22/01/1987',
         location: 'Madrid, España',
         descriptionA: `

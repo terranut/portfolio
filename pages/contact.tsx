@@ -5,8 +5,8 @@ import { FiMail } from "react-icons/fi";
 import { AiFillLinkedin } from "react-icons/ai";
 import NextLink from "next/link";
 
-const ContactPage = () => (
-  <Layout title="José Mendoza | Contacto">
+const ContactPage = (props) => (
+  <Layout title="José Mendoza | Contacto" store={props.store}>
     <Center h="100%">
       <Flex direction="column" alignItems="center">
         <Heading fontFamily="smoch">Hablemos</Heading>

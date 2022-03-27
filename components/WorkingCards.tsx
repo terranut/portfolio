@@ -1,4 +1,4 @@
-import { Stack, Box, Heading, Text, Flex, Card, ImHtmlFive2, SimpleGrid } from "./ui";
+import { Stack, Box, Heading, Text, Flex, Card, Icon, SimpleGrid } from "./ui";
 
 interface WorkingCardItem {
   icon: string;
@@ -16,10 +16,11 @@ const WorkingCards = (props: WorkingCardProps) => {
     <SimpleGrid columns={{ xs: 1, md: 2 }} gap={6} mb="10">
       {items?.map((e, idx) => {
         return (
-          <Card>
+          <Card key={idx}>
             <Stack direction={{ xs: "column", sm: "row" }} spacing={5} p="3">
               <Box>
-                <ImHtmlFive2 size="50px" color="yellow" />
+                <Icon color="yellow" size="50px">{e.icon}</Icon>
+                
               </Box>
               <Flex direction="column">
                 <Heading mb="2">
