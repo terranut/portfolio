@@ -8,7 +8,7 @@ import React, { useEffect, useState } from "react";
 export default function MyApp({ Component, pageProps }: AppProps) {
   const [store, setStore] = useState({});
   const { data, loading, error } = useGoogleSheets({
-    apiKey: "",
+    apiKey: process.env.NEXT_PUBLIC_API,
     sheetId: "10HdQgss8VmnKeMtL1kGEt4ebRwBCTF02b0mKPrcsqVM",
   });
 

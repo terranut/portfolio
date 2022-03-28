@@ -14,7 +14,7 @@ const ResumePage = (props) => (
       <ul className="rb">
         {props?.store?.education?.map((e, idx) => {
           return (
-            <li className="rb-item" ng-repeat="itembx">
+            <li key={idx} className="rb-item" ng-repeat="itembx">
               <Text>{e.title}</Text>
               <Text color="yellow">{e.data}</Text>
               <Text>{e.description}</Text>
@@ -35,7 +35,7 @@ const ResumePage = (props) => (
       <ul className="rb">
         {props?.store?.experience?.map((e, idx) => {
           return (
-            <li className="rb-item" ng-repeat="itembx">
+            <li key={idx} className="rb-item" ng-repeat="itembx">
               <Text>{e.title}</Text>
               <Text color="yellow">{e.data}</Text>
               <Text>{e.description}</Text>
