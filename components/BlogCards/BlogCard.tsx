@@ -25,6 +25,7 @@ const BlogCard = (props: BlogCardItem) => {
         alt="blog"
         h="200px"
         objectFit="cover"
+        loading="lazy"
       />
       <Flex direction="column" p="5">
         <Heading size="sm">{title}</Heading>

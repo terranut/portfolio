@@ -3,7 +3,7 @@ import { WorkCardItem } from "./model";
 
 const WorkCard = (props:WorkCardItem) => {
   return (
-    <Card>
+    <Card gradient="true">
       <Stack direction={{ xs: "column", sm: "row" }} spacing={5} p="3">
         <Box>
           <Icon color="yellow" size="50px">

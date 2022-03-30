@@ -27,6 +27,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       store["social"] = data[8]?.data;
       store["education"] = data[9]?.data;
       store["experience"] = data[10]?.data;
+      store["contact"] = data[11]?.data;
       return { ...appState };
     });
   }, [data]);
