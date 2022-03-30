@@ -1,6 +1,5 @@
 import Layout from "../components/Layout";
 
-const avatars = require("getavataaars");
 
 const AdminPage = (props) => {
 
