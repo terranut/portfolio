@@ -4,7 +4,6 @@ import SocialLink from "./SocialLink";
 
 const SocialLinks = (props: SocialLinksProps) => {
   const { items } = props;
-  console.log(items);
   return (
     <Stack direction="row" spacing={5}>
       {items?.map((e, idx) => {
