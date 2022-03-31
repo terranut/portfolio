@@ -3,10 +3,10 @@ import { Box, Flex, Image, Text, Heading } from "../ui";
 
 const BlogCard = (props: BlogCardItem) => {
   const { image, title, description, url } = props;
-  
+
   const handleClick = (url) => {
     window.open(url, "_blank");
-  }
+  };
 
   return (
     <Flex

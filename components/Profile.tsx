@@ -1,17 +1,31 @@
-import { Card, Box, Text, Image, Badge, Divider, Flex, FiMail, Center, Stack,Icon } from "./ui";
+import { Card, Box, Text, Image, Badge, Divider, Flex, FiMail, Center, Stack, Icon } from "./ui";
+import SocialLinks from "../components/SocialLinks/SocialLinks";
 
-const profileImage = () => (
-  <Box bg="gray.800" boxSize="150px" borderRadius="20px" p="2">
-    <Image src="/assets/avatar.png" alt="Ignacio Mendoza"></Image>
-  </Box>
+const profileImage = (image) => (
+  <Flex
+    bg="gray.800"
+    boxSize="150px"
+    borderRadius="20px"
+    p="2"
+    alignContent="center"
+    justifyContent="center"
+  >
+    <Image
+      borderRadius="20px"
+      fallbackSrc="/assets/no-image.jpeg"
+      src={`https://drive.google.com/uc?id=${image}`}
+      alt="blog"
+      objectFit="cover"
+    ></Image>
+  </Flex>
 );
 
 const Profile = (props) => {
-  const { profile,idData } = props;
+  const { profile, idData,socialLinks } = props;
   return (
     <Card alignItems="center">
       <Box pl="8" pr="8" pt="8" pb="5">
-        {profileImage()}
+        {profileImage(idData?.user_image)}
       </Box>
 
       <Text fontSize="24px" fontWeight="bold" textAlign="center">
@@ -23,11 +37,11 @@ const Profile = (props) => {
       </Badge>
       <Divider mt="5" mb="5" />
 
-      <Box maxWidth="100%" overflow="hidden" overflowX="auto">
+      <Box maxWidth="100%" overflow="hidden" overflowX="auto" mb="8">
         <Stack direction={{ xs: "row", md: "column" }} spacing={10}>
           {profile?.map((e, idx) => {
             return (
-              <Flex key={idx}  alignItems="center" width="100%" fontSize="14px">
+              <Flex key={idx} alignItems="center" width="100%" fontSize="14px">
                 <Center p="2" boxSize="40px" bg="black.300" borderRadius="10px">
                   <Icon color="yellow">{e.icon}</Icon>
                 </Center>
@@ -42,6 +56,9 @@ const Profile = (props) => {
           })}
         </Stack>
       </Box>
+
+      <SocialLinks  items={socialLinks}   />
+
     </Card>
   );
 };

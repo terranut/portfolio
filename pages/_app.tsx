@@ -15,26 +15,30 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     console.log(data);
 
+    let menu = data[1]?.data;
+    if (menu && menu.length) {
+      menu = menu.filter((e:any) => e.enabled === 'TRUE');
+    }
+
     setStore((appState) => {
       store["profile"] = data[0]?.data;
-      store["menu"] = data[1]?.data;
+      store["menu"] = menu;
       store["id"] = data[2]?.data[0];
       store["workingOn"] = data[3]?.data;
       store["companies"] = data[4]?.data;
-      store["skillsA"] = data[5]?.data;
-      store["skillsB"] = data[6]?.data;
-      store["blog"] = data[7]?.data;
-      store["social"] = data[8]?.data;
-      store["education"] = data[9]?.data;
-      store["experience"] = data[10]?.data;
-      store["contact"] = data[11]?.data;
+      store["skills"] = data[5]?.data;
+      store["blog"] = data[6]?.data;
+      store["social"] = data[7]?.data;
+      store["education"] = data[8]?.data;
+      store["experience"] = data[9]?.data;
+      store["contact"] = data[10]?.data;
       return { ...appState };
     });
   }, [data]);
 
   return (
     <ChakraProvider resetCSS theme={theme}>
-      <Component {...pageProps} store={store} /> 
+      <Component {...pageProps} store={store} />
     </ChakraProvider>
   );
 }

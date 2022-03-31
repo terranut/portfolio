@@ -40,6 +40,15 @@ const theme = extendTheme({
     
     
   },
+  components: {
+    Progress: {
+      baseStyle: {
+        filledTrack: {
+          bg: '#fdcf69'
+        }
+      }
+    }
+  },
   fonts,
   breakpoints,
   styles: {

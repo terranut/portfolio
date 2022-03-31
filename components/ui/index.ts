@@ -1,4 +1,4 @@
-import { Link, Image, Divider, Stack, SimpleGrid, GridItem } from "@chakra-ui/react";
+import { Link, Image, Divider, Stack, SimpleGrid, GridItem, Progress,Tooltip } from "@chakra-ui/react";
 import { Center, Box, Flex, Grid } from "@chakra-ui/layout";
 import Head from "next/head";
 import Card from "./Card";
@@ -8,8 +8,10 @@ import { GrMapLocation } from "react-icons/gr";
 import { BsPinMap } from "react-icons/bs";
 
 import { ImHtmlFive2 } from "react-icons/im";
-import {Icon} from "./Icon/Icon";
+import { Icon } from "./Icon/Icon";
 
+
+import { IoLogoYoutube } from "react-icons/io";
 
 import { ButtonApp as Button } from "./Button";
 import { TextApp as Text } from "./Text";
@@ -17,7 +19,7 @@ import { BadgeApp as Badge } from "./Badge";
 import { HeadingApp as Heading } from "./Heading";
 
 export {
-    ImHtmlFive2, Button, Link, Center, Box, Flex, Head, Text,
-    Card, Image, Badge, Divider, FiMail, Stack, Heading, Grid, SimpleGrid, GridItem,Icon,FaBirthdayCake,GrMapLocation,BsPinMap
+    ImHtmlFive2, Button, Link, Center, Box, Flex, Head, Text, Progress, IoLogoYoutube,Tooltip,
+    Card, Image, Badge, Divider, FiMail, Stack, Heading, Grid, SimpleGrid, GridItem, Icon, FaBirthdayCake, GrMapLocation, BsPinMap
 }
 

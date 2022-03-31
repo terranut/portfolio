@@ -39,7 +39,7 @@ const Layout = ({ children, title = "This is the default title", store }: Props)
       </Head>
       <Flex boxShadow="dark-lg" gap={5} direction={{ xs: "column", md: "row" }}>
         <Box position={{ xs: "relative", md: "sticky" }} top={{ xs: "0", md: "5" }} height="100%">
-          <Profile profile={store.profile} idData={store.id} />
+          <Profile profile={store.profile} idData={store.id} socialLinks={store.social} />
         </Box>
 
         <Card p="0" width="100%">

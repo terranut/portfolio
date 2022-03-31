@@ -18,10 +18,10 @@ const ContactPage = (props) => {
 
 
   return (
-    <Layout title="José Mendoza | Contacto" store={props.store}>
+    <Layout title="Contacto" store={props.store}>
       <Center h="100%"> 
         <Flex direction="column" alignItems="center" width="100%">
-          {showMap ?  <GMap center={center} height="350px"/> :''} 
+          {showMap ?  <GMap center={center} height="350px" zoom={11}/> :''} 
           <Text mt="5"  fontSize="14px">
             Si necesitas más información o tienes alguna pregunta. Contacta conmigo.
           </Text>

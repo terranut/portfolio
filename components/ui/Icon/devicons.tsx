@@ -14,5 +14,8 @@ devicon['apache'] = 'devicon-apache-plain-wordmark'
 devicon['next'] = 'devicon-nextjs-original-wordmark'
 devicon['django'] = 'devicon-django-plain-wordmark'
 devicon['firebase'] = 'devicon-firebase-plain-wordmark';
+devicon['twitter'] = 'devicon-twitter-original';
+devicon['facebook'] = 'devicon-facebook-plain';
+devicon['linkedin'] = 'devicon-linkedin-plain';
 
 export {devicon}
