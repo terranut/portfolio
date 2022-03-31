@@ -9,7 +9,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   const [store, setStore] = useState({});
   const { data, loading, error } = useGoogleSheets({
     apiKey: process.env.NEXT_PUBLIC_API,
-    sheetId: "10HdQgss8VmnKeMtL1kGEt4ebRwBCTF02b0mKPrcsqVM",
+    sheetId: "1EoEVDQ4KTKK6h9Zp7djWjv467w3LkbvUGyO5xPDY_X4",
   });
 
   useEffect(() => {
