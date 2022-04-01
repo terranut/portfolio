@@ -12,11 +12,9 @@ const profileImage = (image) => (
   >
     <Image
       borderRadius="20px"
-      fallbackSrc="/assets/no-image.jpeg"
       src={`https://drive.google.com/uc?id=${image}`}
-      alt="blog"
-      objectFit="cover"
-    ></Image>
+      ignoreFallback
+    />
   </Flex>
 );
 
