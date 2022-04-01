@@ -4,6 +4,7 @@ import theme from "../theme";
 import "../stylesResume.css";
 import useGoogleSheets from "use-google-sheets";
 import React, { useEffect, useState } from "react";
+import { Center, Spinner, Text } from "../components/ui";
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   const [store, setStore] = useState({});
@@ -54,7 +55,14 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <ChakraProvider resetCSS theme={theme}>
-      <Component {...pageProps} store={store} />
+      {!data.length ? (
+        <Center height="100vh" width="100vw" flexDirection="column">
+          <Spinner thickness="8px" speed="0.65s" emptyColor="black.700" color="yellow" size="xl" />
+          <Text mt="5">Cargando...</Text>
+        </Center>
+      ) : (
+        <Component {...pageProps} store={store} />
+      )}
     </ChakraProvider>
   );
 }

@@ -6,34 +6,33 @@ import { Menu } from "./Menu/Menu";
 import { Fade } from "@chakra-ui/react";
 
 type Props = {
+  store: any;
   children?: ReactNode;
   title?: string;
-  store: any;
 };
 
-const Layout = ({ children, title = "This is the default title", store }: Props) => {
+const Layout = ({ children, title = "Portfolio", store }: Props) => {
   const router = useRouter();
   const [page, setPage] = useState("");
 
   useEffect(() => {
-    if(store?.menu){
+    if (store?.menu) {
       setPage(store?.menu?.filter((e) => e.path === router.pathname)[0].display);
-    }else{
-      setPage(title)
+    } else {
+      setPage(title);
     }
-   
   }, [router.pathname]);
 
   return (
     <Box
       id="main-wrapper"
-      ml={{ xs: "5", md: "10em" }}
-      mr={{ xs: "5", md: "10em" }}
+      ml={{ xs: "5", md: "10em", lg: "25em" }}
+      mr={{ xs: "5", md: "10em", lg: "25em" }}
       mt={{ xs: "5", md: "5em" }}
       pb="20"
     >
       <Head>
-        <title>{title}</title>
+        <title>{`${title} | ${store?.id?.name}`}</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>

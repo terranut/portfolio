@@ -19,14 +19,7 @@ const BlogCard = (props: BlogCardItem) => {
       overflow="hidden"
       boxShadow="base"
     >
-      <Image
-        fallbackSrc="/assets/no-image.jpeg"
-        src={`https://drive.google.com/uc?id=${image}`}
-        alt="blog"
-        h="200px"
-        objectFit="cover"
-        loading="lazy"
-      />
+      <Image src={`https://drive.google.com/uc?id=${image}`} h="200px" />
       <Flex direction="column" p="5">
         <Heading size="sm">{title}</Heading>
         <Text mt="3">{description}</Text>
