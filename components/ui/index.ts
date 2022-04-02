@@ -7,12 +7,12 @@ import { FiMail } from "react-icons/fi";
 import { FaBirthdayCake } from "react-icons/fa";
 import { GrMapLocation } from "react-icons/gr";
 import { BsPinMap } from "react-icons/bs";
-
 import { ImHtmlFive2 } from "react-icons/im";
+import { RiFileDownloadLine } from "react-icons/ri";
+import { AiOutlineDownload } from "react-icons/ai";
 import { Icon } from "./Icon/Icon";
-
-
 import { IoLogoYoutube } from "react-icons/io";
+
 
 import { ButtonApp as Button } from "./Button";
 import { TextApp as Text } from "./Text";
@@ -25,8 +25,8 @@ import { TabPanelsApp as TabPanels } from "./TabPanels";
 import { TabListApp as TabList } from "./TabList";
 import { ImageApp as Image } from "./Image";
 export {
-    ImHtmlFive2, Button, Link, Center, Box, Flex, Head, Text, Progress,SlideFade,Collapse,
-    IoLogoYoutube, Tooltip, Tabs, TabList, TabPanels, Tab, TabPanel,
+    ImHtmlFive2, Button, Link, Center, Box, Flex, Head, Text, Progress,SlideFade,Collapse,RiFileDownloadLine,
+    IoLogoYoutube, Tooltip, Tabs, TabList, TabPanels, Tab, TabPanel,AiOutlineDownload,
     Card, Image, Badge, Divider, FiMail, Stack, Heading, Grid, SimpleGrid,
     GridItem, Icon, FaBirthdayCake, GrMapLocation, BsPinMap,Spinner,Slide
 }

@@ -1,4 +1,4 @@
-import { Button } from "@chakra-ui/react";
+import { Button,Text } from "@chakra-ui/react";
 
 const ButtonApp = (props) => {
   return (
@@ -10,7 +10,7 @@ const ButtonApp = (props) => {
       _focus={{ boxShadow: "none" }}
       {...props}
     >
-      {props.children}
+      <Text>{props.children}</Text>
     </Button>
   );
 };

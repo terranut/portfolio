@@ -1,7 +1,7 @@
 import React, { ReactNode, useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { Flex, Box, Head, Card, Heading } from "./ui";
-import Profile from "./Profile";
+import Profile from "../components/Profile/Profile";
 import { Menu } from "./Menu/Menu";
 import { Fade } from "@chakra-ui/react";
 

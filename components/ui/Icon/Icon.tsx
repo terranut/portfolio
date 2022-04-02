@@ -1,4 +1,4 @@
-import { FiMail, FaBirthdayCake, BsPinMap, IoLogoYoutube } from "../../ui";
+import { FiMail, FaBirthdayCake, BsPinMap, IoLogoYoutube, AiOutlineDownload,RiFileDownloadLine } from "../../ui";
 import { devicon } from "./devicons";
 import theme from "../../../theme";
 
@@ -16,6 +16,10 @@ const Icon = (props: IconProps) => {
     return <BsPinMap {...props} color={theme.colors[props.color]} />;
   else if (props.children === "youtube")
     return <IoLogoYoutube {...props} color={theme.colors[props.color]} />;
+  else if (props.children === "download")
+    return <AiOutlineDownload {...props} color={theme.colors[props.color]} />;
+  else if (props.children === "download_file")
+    return <RiFileDownloadLine {...props} color={theme.colors[props.color]} />;
   else
     return (
       <i

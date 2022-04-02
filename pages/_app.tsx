@@ -2,10 +2,10 @@ import type { AppProps } from "next/app";
 import { ChakraProvider } from "@chakra-ui/react";
 import theme from "../theme";
 import "../stylesResume.css";
-import React, { useEffect, useState, createContext } from "react";
-import { Center, Spinner, Text } from "../components/ui";
+import React, { useEffect, useState } from "react";
 import { useManager } from "../hooks/useManager";
-import SheetProvider from "../hooks/MyProvider";
+import SheetProvider from "../hooks/SheetProvider";
+import LoadingPage from "../components/LoadingPage";
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   const manager = useManager();
@@ -13,7 +13,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 
   useEffect(() => {
     if (manager[0]) {
-      console.log(window?.location.href,manager);
+      console.log(window?.location.href, manager);
       let url = window?.location.href;
       manager[0].forEach((element) => {
         if (url.indexOf(element.url) > -1) {
@@ -30,10 +30,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
           <Component {...pageProps} />{" "}
         </SheetProvider>
       ) : (
-        <Center height="100vh" width="100vw" flexDirection="column">
-          <Spinner thickness="8px" speed="0.65s" emptyColor="black.700" color="yellow" size="xl" />
-          <Text mt="5">Cargando...</Text>
-        </Center>
+        <LoadingPage text={"Cargando..."} />
       )}
     </ChakraProvider>
   );
