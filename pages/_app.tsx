@@ -13,7 +13,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 
   useEffect(() => {
     if (manager[0]) {
-      // console.log(window?.location.href);
+      console.log(window?.location.href,manager);
       let url = window?.location.href;
       manager[0].forEach((element) => {
         if (url.indexOf(element.url) > -1) {
