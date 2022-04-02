@@ -1,15 +1,17 @@
 import Layout from "../components/Layout";
 import { Tab, TabList, TabPanel, TabPanels, Tabs } from "../components/ui";
-import Skills from "../components/Skills/Skills";
-import BlogCard from "../components/BlogCards/BlogCard";
 import BlogCards from "../components/BlogCards/BlogCards";
+import React from "react";
+import { SheetContext } from "../hooks/SheetContext";
 
-const PortfolioPage = (props) => {
+const PortfolioPage = () => {
+  const store: any = React.useContext(SheetContext);
+
   return (
-    <Layout title="Portfolio" store={props.store}>
+    <Layout title="Portfolio" store={store}>
       <Tabs>
         <TabList>
-          {Object.keys(props.store.portfolio ? props.store.portfolio : []).map((key, index) => {
+          {Object.keys(store.portfolio ? store.portfolio : []).map((key, index) => {
             return (
               <Tab key={index}>
                 <div>{key}</div>
@@ -19,10 +21,10 @@ const PortfolioPage = (props) => {
         </TabList>
 
         <TabPanels>
-          {Object.keys(props.store.portfolio ? props.store.portfolio : []).map((key, index) => {
+          {Object.keys(store.portfolio ? store.portfolio : []).map((key, index) => {
             return (
               <TabPanel key={index}>
-                <BlogCards items={props.store.portfolio[key]} />
+                <BlogCards items={store.portfolio[key]} />
               </TabPanel>
             );
           })}

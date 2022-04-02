@@ -1,5 +1,5 @@
 import { Link, Divider, Stack, SimpleGrid, GridItem,
-Progress, Tooltip,Spinner} from "@chakra-ui/react";
+Progress, Tooltip,Spinner,Slide,SlideFade,Collapse} from "@chakra-ui/react";
 import { Center, Box, Flex, Grid } from "@chakra-ui/layout";
 import Head from "next/head";
 import Card from "./Card";
@@ -25,9 +25,9 @@ import { TabPanelsApp as TabPanels } from "./TabPanels";
 import { TabListApp as TabList } from "./TabList";
 import { ImageApp as Image } from "./Image";
 export {
-    ImHtmlFive2, Button, Link, Center, Box, Flex, Head, Text, Progress,
+    ImHtmlFive2, Button, Link, Center, Box, Flex, Head, Text, Progress,SlideFade,Collapse,
     IoLogoYoutube, Tooltip, Tabs, TabList, TabPanels, Tab, TabPanel,
     Card, Image, Badge, Divider, FiMail, Stack, Heading, Grid, SimpleGrid,
-    GridItem, Icon, FaBirthdayCake, GrMapLocation, BsPinMap,Spinner,
+    GridItem, Icon, FaBirthdayCake, GrMapLocation, BsPinMap,Spinner,Slide
 }
 

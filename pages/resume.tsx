@@ -1,13 +1,16 @@
 import Layout from "../components/Layout";
 import { Box, Text, Heading, Icon, Flex, Card } from "../components/ui";
 import Skills from "../components/Skills/Skills";
+import { SheetContext } from "../hooks/SheetContext";
+import React from "react";
 
-const ResumePage = (props) => {
+const ResumePage = () => {
+  const store: any = React.useContext(SheetContext);
+
   return (
-    <Layout title="Resumen" store={props.store}>
-
+    <Layout title="Resumen" store={store}>
       {/* EDUCATION */}
-      {props?.store?.education?.length ? (
+      {store?.education?.length ? (
         <>
           <Flex alignItems="center" gap={4}>
             <Card p="3">
@@ -18,7 +21,7 @@ const ResumePage = (props) => {
 
           <Box className="rb-container" p="5">
             <ul className="rb">
-              {props?.store?.education?.map((e, idx) => {
+              {store?.education?.map((e, idx) => {
                 return (
                   <li key={idx} className="rb-item" ng-repeat="itembx">
                     <Text>{e.title}</Text>
@@ -35,7 +38,7 @@ const ResumePage = (props) => {
       )}
 
       {/* EXPERIENCE */}
-      {props?.store?.experience?.length ? (
+      {store?.experience?.length ? (
         <>
           <Flex alignItems="center" gap={4}>
             <Card p="3">
@@ -46,7 +49,7 @@ const ResumePage = (props) => {
 
           <Box className="rb-container" p="5">
             <ul className="rb">
-              {props?.store?.experience?.map((e, idx) => {
+              {store?.experience?.map((e, idx) => {
                 return (
                   <li key={idx} className="rb-item" ng-repeat="itembx">
                     <Text>{e.title}</Text>
@@ -62,12 +65,12 @@ const ResumePage = (props) => {
         ""
       )}
 
-      {props?.store?.skills?.length ? (
+      {store?.skills?.length ? (
         <>
           <Heading mb="5" size="lg">
             Skills
           </Heading>
-          <Skills mb="10" skills={props?.store?.skills} />
+          <Skills mb="10" skills={store?.skills} />
         </>
       ) : (
         ""
